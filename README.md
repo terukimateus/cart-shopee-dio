@@ -2,6 +2,14 @@
 
 Este projeto é uma aplicação de carrinho de compras desenvolvida como parte do bootcamp da Digital Innovation One (DIO). **Backend** feito através do curso, adicionado API via Express por mim. **Frontend** com React.js e Tailwind feito apenas por mim.
 
+## Estrutura do Projeto
+
+O projeto está dividido em duas principais pastas:
+
+1. **cart-shopee-node-dio**: Contém o backend da aplicação, desenvolvido com Node.js e Express. Ele é responsável por gerenciar as operações do carrinho, como adicionar, remover e listar itens.
+
+2. **cart-shopee-front-dio**: Contém o frontend da aplicação, desenvolvido com React.js e estilizado com Tailwind CSS. Ele é responsável por exibir os itens do carrinho e permitir interações do usuário.
+
 ## Funcionalidades
 
 - Adicionar produtos ao carrinho.
@@ -11,26 +19,42 @@ Este projeto é uma aplicação de carrinho de compras desenvolvida como parte d
 ## Tecnologias Utilizadas
 
 - **Linguagem:** Javascript
-- **Frameworks/Bibliotecas:** React.js
+- **Backend:** Node.js, Express
+- **Frontend:** React.js, Tailwind CSS
 
 ## Como Executar
 
-1. Clone o repositório:
+### Backend
+
+1. Navegue até a pasta do backend:
    ```bash
-   git clone https://github.com/seu-usuario/cart-shopee-dio.git
+   cd cart-shopee-node-dio
    ```
-2. Navegue até o diretório do projeto:
+2. Instale as dependências:
    ```bash
-   cd cart-shopee-dio
+   npm install
    ```
-3. Instale as dependências:
+3. Inicie o servidor:
    ```bash
-   [Comando para instalar dependências, ex: npm install]
+   npm start
    ```
-4. Execute o projeto:
+4. O backend estará disponível em `http://localhost:4000`.
+
+### Frontend
+
+1. Navegue até a pasta do frontend:
    ```bash
-   [Comando para rodar o projeto, ex: npm start]
+   cd cart-shopee-front-dio
    ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+4. O frontend estará disponível em `http://localhost:3000`.
 
 ## Contribuição
 
